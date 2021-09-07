@@ -1,0 +1,361 @@
+{
+  "books": [
+    {
+      "name": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "link": "brief-history-of-time",
+      "amazon": "https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168/ref=sr_1_1?dchild=1&keywords=A+Brief+History+of+Time&qid=1629098784&sr=8-1",
+      "year": "2020",
+      "short": "Exploration of the forces that govern our universe. At the heart of it all is the search for a theory that explains the history and evolution of our universe—how it began, how it works, and what the future might hold for it.",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "Cosmology",
+        "Philosophy"
+      ],
+      "tech_used": [
+        "Paper Book"
+      ],
+      "photos": [
+        "/static/books/brief-history-of-time/img-1.png"
+      ]
+    },
+    {
+      "name": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "link": "not-giving-a-fuck",
+      "amazon": "https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/B01I29Y344/ref=sr_1_1?crid=2RTKL6Z2S96J&dchild=1&keywords=the+subtle+art+of+not+giving+a+fck&qid=1629098496&s=audible&sprefix=The+sub%2Caudible%2C277&sr=1-1",
+      "year": "2020",
+      "short": "We try to do too much in life and this leads to stress and unhappiness. Each of us needs to learn to stop “giving a fuck” about the things that are causing us pain. Choose what it is you really want to care about and develop a more constructive approach to work, love, and life itself.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Personal Development"
+      ],
+      "tech_used": [
+        "Paper Book"
+      ],
+      "photos": [
+        "/static/books/not-giving-a-fuck/img-1.png"
+      ]
+    },
+    {
+      "name": "Extreme Ownership",
+      "author": "Jocko Willink, Leif Babin",
+      "link": "extreme-ownership",
+      "amazon": "https://www.amazon.com/Extreme-Ownership-audiobook/dp/B015TM0RM4/ref=sr_1_1?crid=3A001SCRX28YR&dchild=1&keywords=extreme+ownership&qid=1629098095&sprefix=Extrem%2Caps%2C303&sr=8-1",
+      "year": "2020",
+      "short": "To be a great leader, you must own everything in their world. There is no one else to blame. This is ‘Extreme Ownership’.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "History",
+        "Military",
+        "Business"
+      ],
+      "tech_used": [
+        "Paper Book"
+      ],
+      "photos": [
+        "/static/books/extreme-ownership/img-1.png"
+      ]
+    },
+    {
+      "name": "Novel with Cocaine",
+      "author": "M. Ageyev",
+      "link": "novel-with-cocaine",
+      "amazon": "https://www.amazon.com/Novel-Cocaine-European-Classics-Ageyev/dp/0810117096/ref=sr_1_1?dchild=1&keywords=Novel+with+Cocaine+M.+Ageyev&qid=1628839844&sr=8-1",
+      "year": "2020",
+      "short": "A Dostoevskian psychological novel of ideas, Novel with Cocaine explores the interaction between psychology, philosophy, and ideology in its frank portrayal of an adolescent's cocaine addiction.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Bildungsroman"
+      ],
+      "tech_used": [
+        "Paper Book"
+      ],
+      "photos": [
+        "/static/books/novel-with-cocaine/img-1.png"
+      ]
+    },
+    {
+      "name": "The Royal Game",
+      "author": "Stefan Zweig",
+      "link": "royal-game",
+      "amazon": "https://www.amazon.com/Royal-Game-Other-Stories/dp/0841914060/ref=sr_1_1?dchild=1&keywords=the+royal+game+stefan+zweig&qid=1628839560&sr=8-1",
+      "year": "2020",
+      "short": "The Royal Game revolves around a chess match on board a ship between two bitter rivals. The passenger known anonymously as Dr. B. battles against the world champion in chess, Mirko Czentovic, who plays with an almost machine-like automatism.",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "Novella"
+      ],
+      "tech_used": [
+        "Paper Book"
+      ],
+      "photos": [
+        "/static/books/royal-game/img-1.png"
+      ]
+    },
+    {
+      "name": "Emotional Intelligence 2.0",
+      "author": "Travis Bradberry",
+      "link": "emotional-intelligence",
+      "amazon": "https://www.amazon.com/Emotional-Intelligence-2-0-Travis-Bradberry/dp/0974320625/ref=sr_1_1?dchild=1&keywords=emotional+intelligence+2.0&qid=1628838984&sr=8-1",
+      "year": "2021",
+      "short": "Our emotions have a constant impact on our lives and decisions. With work, it is possible to master them.",
+      "status": "complete",
+      "weight": 7,
+      "tags": [
+        "Psychology",
+        "Sociology"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/emotional-intelligence/img-1.png"
+      ]
+    },
+    {
+      "name": "The situation is hopeless but not serious",
+      "author": "Paul Watzlawick",
+      "link": "situation-hopeless",
+      "amazon": "https://www.amazon.com/Situation-Hopeless-Serious-Pursuit-Unhappiness/dp/0393310213/ref=sr_1_1?crid=37MQJB674LEK7&dchild=1&keywords=the+situation+is+hopeless+but+not+serious&qid=1628792620&sprefix=The+situation+is+hop%2Caps%2C371&sr=8-1",
+      "year": "2021",
+      "short": "You are indeed the architect of your own unhappiness, and therefore by association of ideas, of your own happiness. The solution lies in your hands.",
+      "status": "complete",
+      "weight": 6,
+      "tags": [
+        "Psychology",
+        "Sociology"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/situation-hopeless/img-1.png"
+      ]
+    },
+    {
+      "name": "Bullshit Jobs",
+      "author": "David Graeber",
+      "link": "bullshit-jobs",
+      "amazon": "https://www.amazon.com/Bullshit-Jobs-David-Graeber-audiobook/dp/B07PMSDSHR/ref=sr_1_2?dchild=1&keywords=bullshit+jobs+david+graeber&qid=1628757582&sr=8-2",
+      "year": "2021",
+      "short": "You do a Bullshit Job when it is useless and stupid, even in your own eyes, but you need it to live.",
+      "status": "complete",
+      "weight": 7,
+      "tags": [
+        "Organizational culture",
+        "Anthropology"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/bullshit-jobs/img-1.png"
+      ]
+    },
+    {
+      "name": "Trust Me, I'm lying",
+      "author": "Ryan Holiday",
+      "link": "trust-me",
+      "amazon": "https://www.amazon.fr/Trust-Me-Lying-Confessions-Manipulator/dp/1591846285",
+      "year": "2021",
+      "short": "The objective of blogs is to attract the eye to make profit and/or be bought out. Apprehending this fact allows us to better understand how they work.",
+      "status": "complete",
+      "weight": 6,
+      "tags": [
+        "Marketing",
+        "Journalism"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/trust-me/img-1.png"
+      ]
+    },
+    {
+      "name": "The Social Contract",
+      "author": "Jean-Jacques Rousseau",
+      "link": "contract-social",
+      "amazon": "https://www.amazon.fr/Social-Contract-Jean-Jacques-Rousseau/dp/0141018887",
+      "year": "2021",
+      "short": "Freedom is transformed when man enters society: from a natural freedom (linked to abilities), to a civil and political freedom (linked to association and the search for the common good).",
+      "status": "complete",
+      "weight": 7,
+      "tags": [
+        "Philosophy",
+        "Political science"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/contract-social/img-1.png"
+      ]
+    },
+    {
+      "name": "Meditations on First Philosophy",
+      "author": "René Descartes",
+      "link": "meditations-philosophy",
+      "amazon": "https://www.amazon.fr/Descartes-Meditations-Philosophy-Selections-Objections/dp/0521558182",
+      "year": "2021",
+      "short": "It is necessary to doubt because it allows one to question all these certainties to search for a more enlightened truth and thus to be free.",
+      "status": "complete",
+      "weight": 7,
+      "tags": [
+        "Philosophy"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/meditations-philosophy/img-1.png"
+      ]
+    },
+    {
+      "name": "Enchiridion of Epictetus",
+      "author": "Epictetus",
+      "link": "enchiridion-epictetus",
+      "amazon": "https://www.amazon.fr/Enchiridion-Epictetus/dp/0879757035",
+      "year": "2021",
+      "short": "To live as a philosopher and attain wisdom is to constantly practice virtue. This way of life consists of 3 parts: logic, physics and ethics. Philosophy is theoretical and is lived through practice.",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "Philosophy"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/enchiridion-epictetus/img-1.png"
+      ]
+    },
+    {
+      "name": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "link": "selfish-gene",
+      "amazon": "https://www.amazon.fr/Selfish-Gene-30th-Anniversary/dp/0199291152",
+      "year": "2021",
+      "short": "Replicators are the origin of all living things, the only entity that allows life to exist. They are now called 'genes' (DNA), and you are their survival machine.",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "Evolution",
+        "Biology"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/selfish-gene/img-1.png"
+      ]
+    },
+    {
+      "name": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "link": "the-prince",
+      "amazon": "https://www.amazon.fr/Prince-Niccolo-Machiavelli/dp/1503017826",
+      "year": "2021",
+      "short": "A prince can only rely on his own strength and must do everything to build an army.",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "Political science"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/the-prince/img-1.png"
+      ]
+    },
+    {
+      "name": "How things gain from disorder",
+      "author": "Nassim Nicholas Taleb",
+      "link": "things-gain-from-disorder",
+      "amazon": "https://www.amazon.fr/Antifragile-Things-That-Gain-Disorder/dp/0812979680",
+      "year": "2021",
+      "short": "History has been built on the occurrence of black swans, which are rare and unforeseen events, and whose consequences, positive or negative, are unimaginable.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Philosophy",
+        "Mathematics",
+        "Economics"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/things-gain-from-disorder/img-1.png"
+      ]
+    },
+    {
+      "name": "Fooled by Randomness",
+      "author": "Nassim Nicholas Taleb",
+      "link": "fooled-randomness",
+      "amazon": "https://www.amazon.fr/Fooled-Randomness-Hidden-Chance-Markets/dp/0141031484",
+      "year": "2021",
+      "short": "Each individual believes that he is the most intelligent and can predict the future. This pushes the human being to errors of reasoning by basing himself only on his intuitions. But reality is often much more complex.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Statistics",
+        "Philosophy",
+        "Finance"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/fooled-randomness/img-1.png"
+      ]
+    },
+    {
+      "name": "The Black Swan",
+      "author": "Nassim Nicholas Taleb",
+      "link": "black-swan",
+      "amazon": "https://www.amazon.com/The-Black-Swan-audiobook/dp/B000VXBVN6/ref=sr_1_1?dchild=1&keywords=the+black+swan+nassim+nicholas+taleb&qid=1627892746&sr=8-1",
+      "year": "2021",
+      "short": "The Black Swan manifests itself as a surprising, aberrant and unpredictable event. It is necessary to go beyond the simple reading of events to have a better understanding of its dynamics.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Epistemology",
+        "Philosophy"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/black-swan/img-1.png"
+      ]
+    },
+    {
+      "name": "Discourse on the Method",
+      "author": "René Descartes",
+      "link": "discourse-method",
+      "amazon": "https://www.amazon.fr/Descartes-Discourse-Method-Rene/dp/1463529031",
+      "year": "2021",
+      "short": "All men are beings of reason and are equal before knowledge. The problem is the way they use this reason: the method.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Philosophy",
+        "Autobiography"
+      ],
+      "tech_used": [
+        "Koober"
+      ],
+      "photos": [
+        "/static/books/discourse-method/img-1.png"
+      ]
+    }
+  ]
+}
