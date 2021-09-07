@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/materialize.css') }}">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/tech.css') }}">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="main-content">
+  <article class="post page">
+    <div class="post-header">
+      <div class="container">
+        <div class="hub-cols mt4 container">
+          <div class="post-content">
+            <div class="table-of-contents">
+            <div class="toc">
+              <ol class="toc-list ">
+                <li class="toc-list-item is-active-li">
+                  <a href="#my-favourite-software" class="toc-link node-name--H2 ">My Favourite Software</a>
+                <ol class="toc-list ">
+                  <li class="toc-list-item">
+                    <a href="#-microsoft-package" class="toc-link node-name--H3 ">1️⃣ Microsoft Package</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-sublime-text" class="toc-link node-name--H3 ">2️⃣ Sublime Text</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-jupyter-lab" class="toc-link node-name--H3 ">3️⃣ Jupyter Lab</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-postgres-dbeaver" class="toc-link node-name--H3 ">4️⃣ Postgres & DBeaver</a>
+                  </li>
+                </ol>
+                </li>
+                <li class="toc-list-item">
+                  <a href="#my-favourite-hardware" class="toc-link node-name--H2  is-active-link">My Favourite Hardware</a>
+                <ol class="toc-list ">
+                  <li class="toc-list-item">
+                    <a href="#-phone" class="toc-link node-name--H3 ">☎️ Phone</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-computer" class="toc-link node-name--H3 ">💻 Computer</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-listening" class="toc-link node-name--H3 ">🎧 Listening</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-wearable" class="toc-link node-name--H3 ">⌚️ Wearable</a>
+                  </li>
+                </ol>
+                </li>
+                <li class="toc-list-item">
+                  <a href="#my-favourite-apps" class="toc-link node-name--H2 ">My Favourite Apps</a>
+                <ol class="toc-list ">
+                  <li class="toc-list-item">
+                    <a href="#-notion" class="toc-link node-name--H3 ">📒 Notion</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-koober" class="toc-link node-name--H3 ">📣 Koober</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-busuu" class="toc-link node-name--H3 ">🗣 Busuu</a>
+                  </li>
+                  <li class="toc-list-item">
+                    <a href="#-nike-run-club" class="toc-link node-name--H3 ">🏃 Nike Run Club</a>
+                  </li>
+                  <br>
+                  <br>
+                  <br>
+                </ol>
+                </li>
+              </ol>
+            </div>
+        </div>
+
+        <h2 id="my-favourite-software" class="sbt1">My Favourite Software</h2>
+
+        <h3 id="-microsoft-package" class="sbt">1️⃣ Microsoft Package</h3>
+        <p class="lb"> <img src="/static/images/microsoft.png" class= "right-img"> <a style="color: darkgreen;">Microsoft Package</a> is my key tool for any kind of work. I used to work with it a lot <b>from school and work experience</b>: Word, Excel, PowerPoint, PowerBI, Visio, Teams Outlook, and so on. I <b>couldn't forget it</b> in my favorite software.</p>
+
+        <h3 id="-sublime-text" class="sbt">2️⃣ Sublime Text</h3>
+        <p class="lb"> <img src="/static/images/sublime.png" class= "right-img"> <a style="color: darkorange;">Sublime Text</a> is my daily text editor for all projects and lessons that required <b>code</b>. I found this text editor during my self-training in Data Science on YouTube and I haven't left it since that day.</p>
+
+        <h3 id="-jupyter-lab" class="sbt">3️⃣ Jupyter Lab</h3>
+        <p class="lb"> <img src="/static/images/jupyter.png" class= "right-img"> Jupyter helped me a lot through my Data Journey. I used <a style="color: darkred;">Jupyter Lab</a> for almost all of my <b>certificates</b> in Data Science from IBM to OpenClassroom. It is <b>really easy</b> for users to manipulate files and directly see code outputs. </p>
+
+        <h3 id="-postgres-dbeaver" class="sbt">4️⃣ Postgres & DBeaver</h3>
+        <p class="lb"> <img src="/static/images/postgres.png" class= "right-img"> I have used <b>many tools</b> during my SQL journey: physical paper (IAE), SQLiteStudio (OpenClassroom), IBM DB2 and Jupyter (IBM). Nowadays, I'm trying to set up a <b>common software tool</b> for all my SQL training with Postgres & DBeaver.</p>
+
+        <h2 id="my-favourite-hardware" class="sbt1">My Favourite Hardware</h2>
+
+        <h3 id="-phone" class="sbt">☎️ Phone</h3>
+        <p class="lb"> <img src="/static/images/iphone.png" class= "right-img"> My daily driver is the <b style="color: indianred;">iPhone 11</b>. I was initially an Android guy until <b>2018</b> when I decided to discover iPhone. Nowadays, I'm very happy with it and it's <b>unlikely</b> that I will change for another model.</p>
+
+        <h3 id="-computer" class="sbt">💻 Computer</h3>
+        <p class="lb"> <img src="/static/images/macbook.png" class= "right-img"> Initially from <b>windows ecosystem</b> until 2021, I decided to change and try out an Apple computer. Nowadays, the <b style="color: slategray;">13 inch Macbook Air</b> is my daily driver to get most of my <b>education work</b> and <b>personal development</b> done.</p>
+
+        <h3 id="-listening" class="sbt">🎧 Listening</h3>
+        <p class="lb"> <img src="/static/images/bose.png" class= "right-img"> The <b style="color: slategray;">Bose Noise Cancelling Headphones 700</b> is my favourite listening product. I really appreciate the way they massively <b>reduce the friction</b> associated with listening to various stuff.</p>
+
+        <h3 id="-wearable" class="sbt">⌚️ Wearable</h3>
+        <p class="lb"> <img src="/static/images/suunto.png" class= "right-img"> These days, I <b>don't rock</b> any wearable tech. I plan to get a <b>sport performance watch</b> for 2022 but still hesitate between some brands and models. Don't hesitate if you have any suggestions!</p>
+
+        <h2 id="my-favourite-apps" class="sbt1">My Favourite Apps</h2>
+
+        <h3 id="-notion" class="sbt">📒 Notion</h3>
+        <p class="lb"> <img src="/static/images/notion.png" class= "right-img"> Notion is the app I use most to <b>manage my work and personal life</b>. I love Notion because it provides a lot <b>more features and templates</b> than the classic Apple Note-Tacking Application. I'd definitely recommend you to check it out! </p>
+
+        <h3 id="-koober" class="sbt">📣 Koober</h3>
+        <p class="lb"> <img src="/static/images/koober.png" class= "right-img"> Koober is a french application which provides various <b>audio books and books summaries</b>. I use it a lot specially in transportation or when I <b>don't have time</b> to read entire books. The only downside is that the library is exclusively in French. </p>
+
+        <h3 id="-busuu" class="sbt">🗣 Busuu</h3>
+        <p class="lb"> <img src="/static/images/busuu.png" class= "right-img"> Busuu is my favorite <b>language application</b> for its interface and simplicity. Lately, I learned Portuguese for daily-life and a little of italian for a trip. Busuu is really useful as a <b>daily complement</b> to my own abroad experience. </p>
+
+        <h3 id="-nike-run-club" class="sbt">🏃 Nike Run Club</h3>
+        <p class="lb"> <img src="/static/images/nikerc.png" class= "right-img"> I use Nike Run Club to <b>track and share all my runs</b>. It will remain my running driver until I acquire a sport watch to be more efficient. You can find the majority of my runs on my <a target="_blank" href="https://www.instagram.com/hugotorche/">Instagram</a>. </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </div>
+    </div>
+  </article>
+</div>
+{% endblock %}
+
+
+
+
+

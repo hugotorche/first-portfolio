@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">xlsm</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='sub'>Sub</span><span class="macro"> profile()</span>
+                        <span class="typed"></span>
+                        <form><span class="sub">End Sub</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Hugo</p>
+            <p class="text-title desktop-view">Torché</p>
+            <p class="text-title mobile-view">Hugo Torché</p>
+            <br>
+            <div class="social-icons">
+            <li class="list-inline-item">
+                <a target="_blank" href="https://github.com/hugotorche">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.linkedin.com/in/hugotorche">
+                    <img class="title-logo" src="static/images/linkedin.svg">
+                </a>
+            </li>
+<!--             <li class="list-inline-item">
+                <a target="_blank" href="https://twitter.com/hugotorche">
+                    <img class="title-logo" src="static/images/twitter.svg">
+                </a>
+            </li> -->
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.instagram.com/hugotorche/">
+                    <img class="title-logo" src="static/images/instagram.svg">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="mailto:hugotorche1@gmail.com">
+                    <img class="title-logo" src="static/images/email.svg">
+                </a>
+            </li>
+            </div>
+        </div>
+    </div>
+{% endblock %}

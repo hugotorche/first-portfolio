@@ -1,0 +1,46 @@
+<div class="col s12 m4 l4">
+    <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+            {% if 'photos' in book %}
+            <img class="card-image activator" src={{book['photos'][0]}}/>
+            {% else %}
+            <img class="card-image activator" src="/static/images/bookx.png/">
+            {% endif %}
+        </div>
+        <div class="card-content activator">
+            <div class="container-outer">
+                <div class="md-chips container-inner">
+                    {% for tag in book['tags'] %}
+                    <div class="md-chip md-chip-clickable"><a class="md-chip-link"
+                                                              href="/books?tags={{tag}}">{{tag}}</a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div>
+                <span id="title" class="card-title activator grey-text text-darken-4" title="{{book['name']}}">
+                  {{book['name']}}
+                    <p id="author" class="card-author activator grey-text text-darken-2" title="{{book['author']}}">
+                      {{book['author']}}
+                    </p>
+                </span>
+                <i class="material-icons right activator">more_vert</i>
+            </div>
+            <div>
+                {% if 'amazon' in book %}
+                <span><a class="github" href={{book['amazon']}} target="_blank"> | Buy</a></span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card-reveal">
+            <span id="title" class="card-title activator grey-text text-darken-4">{{book['name']}}<i
+                    class="material-icons right">close</i></span>
+            <span id="author" class="card-author activator grey-text text-darken-2">{{book['author']}}</span>
+            <br>
+            <br>
+            <div><span class="status">{{book['year']}}</span></div>
+            <br>
+            <p>{{book['short']}}</p>
+        </div>
+    </div>
+</div>

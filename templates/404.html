@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/404.css') }}">
+
+{% endblock %}
+
+{% block body %}
+<div id="main">
+        <div class="fof">
+                <h1>Error 404</h1>
+        </div>
+</div>
+{% endblock %}

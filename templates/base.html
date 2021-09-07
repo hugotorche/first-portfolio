@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hugo Torche</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Google Fonts API, Bootstrap and Cloudflare-->
+    <link rel='stylesheet'
+          href='https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900'
+          type='text/css' media='screen'/>
+
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/bootstrap.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/normalize.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+    <!--Google Analytics-->
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', '{{config.GA_TRACKING_ID}}', 'auto');
+
+        // Replace the following lines with the plugins you want to use.
+        ga('require', 'eventTracker');
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'urlChangeTracker');
+        ga('require', 'cleanUrlTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'pageVisibilityTracker');
+        // ...
+        ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script async src="static/js/autotrack.js"></script>
+
+
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+        <!--NavBar-->
+    <header class="site-header" role="banner">
+        <nav class="nav_bar_lg d-flex justify-space-between" role="navigation">
+            <div class="desktop_nav_menu">
+                <a class="nav_li" href="/">Home</a>
+                <a class="nav_li" href="/resume" target="_blank">Resume</a>
+                <a class="nav_li_projects" href="/projects">Projects</a>
+                <a class="nav_li" href="/tech">Tech</a>
+                <a class="nav_li" href="/books">Books</a>
+            </div>
+            <div class="m-nav-toggle-container">
+                <button class="navbar-toggler" type="button" role="button" aria-controls="navbarToggle"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                            width="24" height="24">
+                            <path fill-rule="evenodd"
+                                d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+                            </path>
+                        </svg></span>
+                </button>
+            </div>
+            <div class="m-nav-toggler-close">
+                <button class="navbar-toggler-close" type="button" role="button">
+                    x
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mobile_nav_menu">
+        <div class="nav_items">
+            <a class="m_nav_link" href="/">Home</a>
+            <a class="m_nav_link" href="/resume">Resume</a>
+            <a class="m_nav_link" href="/projects">Projects</a>
+            <a class="m_nav_link" href="/tech">Tech</a>
+            <a class="m_nav_link" href="/books">Books</a>
+        </div>
+    </section>
+
+{% block body %}
+{% endblock %}
+
+<script src="/static/js/base.js"></script>
+
+</body>
+</html>
