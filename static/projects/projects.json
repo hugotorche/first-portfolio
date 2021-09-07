@@ -1,0 +1,435 @@
+{
+  "projects": [
+    {
+      "name": "Starbucks Analysis",
+      "link": "starbucks-analysis",
+      "date": "Oct 2019",
+      "short": "With three teammates, I did a financial analysis of starbucks 2010, 2011 and 2012 accounts. This case study was part of my Corporate Finance course at Kedge Business School.",
+      "status": "complete",
+      "weight": 3,
+      "tags": [
+        "Business",
+        "Finance",
+        "Teamwork"
+      ],
+      "pdfs": [
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/starbucks-analysis/starbucks-analysis.pdf\" frameborder=\"1\"></iframe>"
+      ],
+      "photos": [
+        "/static/projects/starbucks-analysis/img-1.png"
+      ]
+    },
+    {
+      "name": "Sriram Wheels Valuation",
+      "link": "sriram-wheels",
+      "date": "Nov 2019",
+      "short": "A well-known Financial Valuation case study of the fictional travel company Sriram Wheels. This case study was part of my Corporate Finance course at Kedge Business School.",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "Business",
+        "Finance",
+        "Teamwork"
+      ],
+      "pdfs": [
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/sriram-wheels/sriram-wheels.pdf\" frameborder=\"1\"></iframe>"
+      ],
+      "photos": [
+        "/static/projects/sriram-wheels/img-1.png"
+      ]
+    },
+    {
+      "name": "RapidMiner AI",
+      "link": "rapidminer-ai",
+      "date": "Mar 2021",
+      "short": "During my AI course at Kedge Business School, I had the occasion to experience RapidMiner Studio through various Machine Learning problems.",
+      "status": "complete",
+      "weight": 5,
+      "tags": [
+        "Data Science",
+        "Software"
+      ],
+      "tech_used": [
+        "RapidMiner Studio"
+      ],
+      "photos": [
+        "/static/projects/rapidminer-ai/img-1.png", "/static/projects/rapidminer-ai/img-2.png", "/static/projects/rapidminer-ai/img-3.png", "/static/projects/rapidminer-ai/img-4.png", "/static/projects/rapidminer-ai/img-5.png", "/static/projects/rapidminer-ai/img-6.png"
+      ]
+    },
+          {
+          "name": "Luxury Alliance",
+          "link": "luxury-alliance",
+          "date": "Apr 2021",
+          "short": "A group project about an alliance between Arts and Luxury, Jacquemus and Château de Versailles. This is the final deliverable of the Luxury Marketing course at Kedge Business School.",
+          "status": "complete",
+          "weight": 4,
+          "tags": [
+            "Business",
+            "Luxury",
+            "Teamwork"
+          ],
+          "pdfs": [
+            "<iframe width=\"500\" height=\"700\" src=\"/static/projects/luxury-alliance/luxury-alliance.pdf\" frameborder=\"1\"></iframe>"
+          ],
+          "photos": [
+            "/static/projects/luxury-alliance/img-1.png"
+          ]
+          },
+          {
+          "name": "Roland Garros Analytics",
+          "link": "rg-analytics",
+          "github": "https://github.com/hugototo/Youtube/tree/main/Python%20Tutorials/Youtube%20API/Case%20Study%20:%20Roland%20Garros%20editions%20(2014-2020)",
+          "date": "Jul 2021",
+          "short": "I decided to analyze Youtube data about Roland Garros editions from 2014 to 2020. My goal was to define which edition was the best according to the data and get my hands on YouTube API.",
+          "status": "complete",
+          "weight": 16,
+          "tags": [
+            "Python",
+            "API",
+            "Sublime Text"
+          ],
+          "tech_used": [
+            "Python3",
+            "Sublime Text",
+            "YouTube API",
+            "Google"
+          ],
+          "photos": [
+            "/static/projects/rg-analytics/img-1.png", "/static/projects/rg-analytics/img-2.png"
+          ]
+          },
+          {
+          "name": "Portfolio",
+          "link": "portfolio",
+          "github": "https://github.com/hugotorche/Portfolio",
+          "date": "Sep 2021",
+          "short": "My personal portfolio on the web, built from Rish Bhardwaj's website. I've revised the design and the content of each component time and again, for both mobile and desktop versions.",
+          "status": "complete",
+          "weight": 17,
+          "tags": [
+            "Python",
+            "Web Development",
+            "Sublime Text"
+          ],
+          "tech_used": [
+            "Python3",
+            "Flask",
+            "Bootstrap",
+            "Jinja"
+          ],
+          "photos": [
+            "/static/projects/portfolio/img-1.png", "/static/projects/portfolio/img-2.png"
+          ]
+        },
+        {
+          "name": "3K Pyrénées 2021",
+          "link": "3k-pyrenees-2021",
+          "date": "Aug 2021",
+          "short": "During summer 2021, I spent two weeks doing hiking in French 'Pyrénées'. My objectives were to do my first 3000m peak, to improve my hiking skills, and to see some wonderful landscapes!",
+          "status": "complete",
+          "weight": 7,
+          "tags": [
+            "Sport",
+            "Mountains"
+          ],
+          "tech_used": [
+          ],
+          "photos": [
+            "/static/projects/3k-pyrenees-2021/img-1.png", "/static/projects/3k-pyrenees-2021/img-2.png", "/static/projects/3k-pyrenees-2021/img-3.png", "/static/projects/3k-pyrenees-2021/img-4.png", "/static/projects/3k-pyrenees-2021/img-5.png", "/static/projects/3k-pyrenees-2021/img-6.png"
+          ]
+        },
+        {
+      "name": "Analyzing Stock Performance",
+      "link": "analyzing-stock-performance",
+      "github": "https://github.com/hugototo/IBMDataScience/blob/main/Course%205/Python%20Project%20for%20Data%20Science.ipynb",
+      "date": "May 2021",
+      "short": "I analyzed revenue data for Tesla and GameStop and built a dashboard to compare the price of the stock vs the revenue. This Analysis is the final Capstone Project of the Python Project course from my IBM Data Science Certificate.",
+      "status": "complete",
+      "weight": 12,
+      "tags": [
+        "Python",
+        "Data Science",
+        "Jupyter"
+      ],
+      "tech_used": [
+        "Python3",
+        "Jupyter Lab",
+        "Data Analysis"
+      ],
+      "photos": [
+        "/static/projects/analyzing-stock-performance/img-1.png", "/static/projects/analyzing-stock-performance/img-2.png", "/static/projects/analyzing-stock-performance/img-3.png"
+      ]
+    },
+    {
+      "name": "Chicago Data Analysis",
+      "link": "chicago-data-analysis",
+      "github": "https://github.com/hugototo/IBMDataScience/blob/main/Course%206/SQL%20with%20Python%20(5).ipynb",
+      "date": "May 2021",
+      "short": "I analyzed census, crime, and school data for Chicago city to identify causes that impact the enrollment, safety, health, environment ratings of schools. This Analysis is the final Capstone Project of the Databases and SQL course from my IBM Data Science Certificate.",
+      "status": "complete",
+      "weight": 20,
+      "tags": [
+        "SQL",
+        "Data Science",
+        "IBM DB2"
+      ],
+      "tech_used": [
+        "SQL",
+        "IBM DB2",
+        "Databases"
+      ],
+      "photos": [
+        "/static/projects/chicago-data-analysis/img-1.png", "/static/projects/chicago-data-analysis/img-2.png", "/static/projects/chicago-data-analysis/img-3.png"
+      ]
+    },
+    {
+      "name": "House Sales Analysis",
+      "link": "house-sales-analysis",
+      "github": "https://github.com/hugototo/IBMDataScience/blob/main/Course%207/Data%20Analysis%20Python%20(6).ipynb",
+      "date": "May 2021",
+      "short": "I analyzed and predicted US house prices using attributes or features such as square footage, number of bedrooms, number of floors, and so on. This Analysis is the final Capstone Project of the Data Analysis course from my IBM Data Science Certificate.",
+      "status": "complete",
+      "weight": 10,
+      "tags": [
+        "Python",
+        "Data Science",
+        "Jupyter"
+      ],
+      "tech_used": [
+        "Python3",
+        "Jupyter Lab",
+        "Data Analysis",
+        "Machine Learning"
+      ],
+      "photos": [
+        "/static/projects/house-sales-analysis/img-1.png", "/static/projects/house-sales-analysis/img-2.png", "/static/projects/house-sales-analysis/img-3.png","/static/projects/house-sales-analysis/img-4.png"
+      ]
+    },
+    {
+      "name": "Flights dashboard",
+      "link": "flights-dashboard",
+      "github": "https://github.com/hugototo/IBMDataScience/blob/main/Course%208/Data%20Viz%20Python%20(9.2).py",
+      "date": "Jun 2021",
+      "short": "I built a dashboard to display US Domestic Airline Flights Performance and Yearly average flight delay statistics for a given year (2005 to 2020).  This dashboard is the final Capstone Project of the Data Visualization course from my IBM Data Science Certificate.",
+      "status": "complete",
+      "weight": 21,
+      "tags": [
+        "Python",
+        "Data Science",
+        "Jupyter"
+      ],
+      "tech_used": [
+        "Python3",
+        "Jupyter Lab",
+        "Dash",
+        "Data Visualization"
+      ],
+      "photos": [
+        "/static/projects/flights-dashboard/img-1.png", "/static/projects/flights-dashboard/img-2.png", "/static/projects/flights-dashboard/img-3.png", "/static/projects/flights-dashboard/img-4.png"
+      ]
+    },
+    {
+      "name": "Loans classification",
+      "link": "loans-classification",
+      "github": "https://github.com/hugototo/IBMDataScience/blob/main/Course%209/%20ML%20with%20Python%20(13).ipynb",
+      "date": "Jun 2021",
+      "short": "I classified past loans using four algorithm methods: KNN, Decision Tree, SVM and Logistic Regression. This analysis is the final Capstone Project of the Machine Learning course from my IBM Data Science Certificate.",
+      "status": "complete",
+      "weight": 15,
+      "tags": [
+        "Python",
+        "Data Science",
+        "Jupyter"
+      ],
+      "tech_used": [
+        "Python3",
+        "Jupyter Lab",
+        "Pre-processing",
+        "Classification"
+      ],
+      "photos": [
+        "/static/projects/loans-classification/img-1.png", "/static/projects/loans-classification/img-2.png", "/static/projects/loans-classification/img-3.png"
+      ]
+    },
+    {
+      "name": "Research Luxury and CSR",
+      "link": "brsm",
+      "date": "May 2021",
+      "short": "A research project about Luxury industry, Financial performance and CSR actions. This is my final deliverable of the Business Research Skills and Management course at Kedge Business School.",
+      "status": "complete",
+      "weight": 13,
+      "tags": [
+        "Business",
+        "Luxury",
+        "Research"
+      ],
+      "pdfs": [
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/brsm/brsm.pdf\" frameborder=\"1\"></iframe>"
+      ],
+      "photos": [
+        "/static/projects/brsm/img-1.png"
+      ]
+    },
+    {
+      "name": "Case Study Artesia (FR)",
+      "link": "finance-artesia",
+      "date": "Jun 2021",
+      "short": "Financial Valuation of the fictional company Artesia which sells home furniture for its acquisition by an italian group. Valuation takes into account both intrinsic and relative approaches.",
+      "status": "complete",
+      "weight": 6,
+      "tags": [
+        "Business",
+        "Finance"
+      ],
+      "pdfs": [
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/finance-artesia/Financial Valuation Artesia.pdf\" frameborder=\"1\"></iframe>"
+      ],
+      "photos": [
+        "/static/projects/finance-artesia/img-1.png"
+      ]
+    },
+    {
+      "name": "Case Study Auchan (FR)",
+      "link": "finance-legaulois",
+      "date": "Jun 2021",
+      "short": "Financial Valuation of the company Le Gaulois with various methods for its acquisition by the group Auchan. Financial Analysis of Auchan repayment capacity.",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "Business",
+        "Finance"
+      ],
+      "pdfs": [
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/finance-legaulois/Financial Valuation Le Gaulois.pdf\" frameborder=\"1\"></iframe>"
+      ],
+      "photos": [
+        "/static/projects/finance-legaulois/img-1.png"
+      ]
+    },
+    {
+      "name": "Case Study Air France (FR)",
+      "link": "finance-airfranceklm",
+      "date": "Apr 2021",
+      "short": "Financial Analysis and Valuation of the company Air France-KLM based on four years data: 2017, 2018, 2019 and 2020.",
+      "status": "complete",
+      "weight": 18,
+      "tags": [
+        "Business",
+        "Finance"
+      ],
+      "pdfs": [
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/finance-airfranceklm/Financial Analysis Air France-KLM.pdf\" frameborder=\"1\"></iframe>",
+        "<iframe width=\"500\" height=\"700\" src=\"/static/projects/finance-airfranceklm/Financial Valuation Air France-KLM.pdf\" frameborder=\"1\"></iframe>"
+      ],
+      "photos": [
+        "/static/projects/finance-airfranceklm/img-1.png"
+      ]
+    },
+    {
+      "name": "Neighborhood Analysis",
+      "link": "copenhagen-neighborhood-analysis",
+      "github": "https://github.com/hugototo/IBMDataScience/blob/main/Final%20Course/Project%20(6).ipynb",
+      "date": "Jul 2021",
+      "short": "I analyzed Copenhagen neighborhoods to find the best locations for a stay in the city. This analysis is the final Capstone Project of my IBM Data Science Certificate.",
+      "status": "complete",
+      "weight": 19,
+      "tags": [
+        "Python",
+        "API",
+        "Data Science",
+        "Jupyter"
+      ],
+      "tech_used": [
+        "Python3",
+        "Jupyter Lab",
+        "Foursquare API",
+        "Clustering"
+      ],
+      "photos": [
+        "/static/projects/copenhagen-neighborhood-analysis/img-1.png", "/static/projects/copenhagen-neighborhood-analysis/img-2.png", "/static/projects/copenhagen-neighborhood-analysis/img-3.png", "/static/projects/copenhagen-neighborhood-analysis/img-4.png"
+      ]
+    },
+    {
+      "name": "Go-DCG",
+      "link": "godcg",
+      "site": "https://www.go-dcg.com/",
+      "date": "Apr 2019",
+      "short": "Website created with my classmate Yoann Peltier to help fellow students be graduated. This site is intended for all students preparing the DCG exam.",
+      "status": "complete",
+      "weight": 11,
+      "tags": [
+        "Web Development",
+        "Business"
+      ],
+      "tech_used": [
+        "HTML",
+        "JS",
+        "CSS"
+      ],
+      "photos": [
+        "/static/projects/godcg/img-1.png", "/static/projects/godcg/img-2.png", "/static/projects/godcg/img-3.png", "/static/projects/godcg/img-4.png"
+      ]
+    },
+    {
+      "name": "International Business Game",
+      "link": "international-business-game",
+      "site": "https://region-aquitaine.experts-comptables.org/tournoi-de-gestion",
+      "date": "Dec 2018",
+      "weight": 2,
+      "short": "Participation with four classmates to the International Management Tournament organised by the OEC (Ordre des Experts-Comptables).",
+      "status": "complete",
+      "tags": [
+        "Business",
+        "Teamwork"
+      ],
+      "tech_used": [
+        "Arkhe"
+      ],
+      "photos": [
+        "/static/projects/international-business-game/img-1.png", "/static/projects/international-business-game/img-2.png"
+      ]
+    },
+    {
+      "name": "Copenhagen Half Marathon",
+      "link": "copenhagen-half-marathon",
+      "site": "https://cphhalf.dk/en/",
+      "date": "Sep 2021",
+      "weight": 14,
+      "short": "I have been selected to go on exchange to Copenhagen Business School on Fall 2021. What better way to live this experience than with a sporting challenge!",
+      "status": "complete",
+      "tags": [
+        "Sport",
+        "Running"
+      ],
+      "tech_used": [
+        "Nike Run Club"
+      ],
+      "photos": [
+        "/static/projects/copenhagen-half-marathon/img-1.png", "/static/projects/copenhagen-half-marathon/img-2.png"
+      ]
+    },
+    {
+      "name": "Juggling Channel Hecadio",
+      "link": "juggling-channel",
+      "channel": "https://www.tiktok.com/@hugotorche?",
+      "date": "Jan 2021 - Present",
+      "weight": 1,
+      "short": "I created a TikTok channel to display my juggling practices and to improve my skills. Update: I renamed the channel Hugo Torché for more consistency between my social networks.",
+      "status": "complete",
+      "tags": [
+        "Sport",
+        "Juggling"
+      ],
+      "tech_used": [
+        "TikTok",
+        "I-Balls"
+      ],
+      "videos": [
+        "<iframe width=\"400\" height=\"530\" src=\"/static/projects/juggling-channel/vid-1.mp4\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+      ],
+      "photos": [
+        "/static/projects/juggling-channel/img-1.png", "/static/projects/juggling-channel/img-2.png"
+      ]
+    }
+  ]
+}
