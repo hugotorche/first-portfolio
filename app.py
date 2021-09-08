@@ -9,7 +9,7 @@ from flask import Flask, render_template, request, redirect, Response, send_file
 app = Flask(__name__)
 
 try:
-    app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID']
+    app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID'] 
 except:
     print('Tracking ID not set')
 
